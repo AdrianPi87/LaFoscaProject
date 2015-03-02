@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+      <EditText
+    android:id="@+id/username"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text" />
+    
+    <EditText
+    android:id="@+id/password"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword" />
+    
+     <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CreateUser" />
+     
+      <Button
+        android:id="@+id/backPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="returnPrincipal" />
+      
+       <TextView
+	        android:id="@+id/view"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:capitalize="characters"
+	        android:text="" />
+
+</LinearLayout>
